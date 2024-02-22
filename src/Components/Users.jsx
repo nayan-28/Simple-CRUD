@@ -10,6 +10,7 @@ const Users = () => {
       .then((data) => {
         if (data.deletedCount > 0) {
           alert("Deleted Successfully");
+          //Refresh page after deletion
           window.location.reload();
         }
       });
