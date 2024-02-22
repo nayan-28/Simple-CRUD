@@ -31,9 +31,9 @@ function App() {
       <div>
         <h2>Simple CRUD</h2>
         <form onSubmit={handleAddUser}>
-          <input type="text" name="name" />
+          <input type="text" name="name" required />
           <br />
-          <input type="email" name="email" />
+          <input type="email" name="email" required />
           <br />
           <input type="submit" value="Add User" />
         </form>
